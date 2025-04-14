@@ -57,9 +57,9 @@ export default function Home() {
             </svg>
             Download ($4.99)
           </a>
-          <a
+          <Link
             className="border border-neutral-300 px-6 py-3 rounded-lg font-medium dark:hover:bg-white/10 hover:bg-neutral-100 flex items-center gap-2"
-            href="#features"
+            href="/write"
           >
             {/* Inline SVG for Info */}
             <svg
@@ -78,7 +78,7 @@ export default function Home() {
               <line x1="12" y1="8" x2="12" y2="8"></line>
             </svg>
             Try in web (Free)
-          </a>
+          </Link>
         </div>
       </section>
 

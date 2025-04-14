@@ -288,7 +288,7 @@ function App() {
                         />
                     </div>
                     <div className={cl(
-                        history ? 'right-0' : '-right-1/2',
+                        history ? 'right-0' : '-right-full',
                         "absolute flex-1 flex flex-col overflow-y-auto  h-full top-0 max-w-md w-full transition-all ease-in-out p-6 pb-12 dark:bg-neutral-800 bg-neutral-200 select-none")}>
                         <div className="flex justify-between p-2  text-neutral-700 dark:text-neutral-300 ">
                             <h2 className="text-lg font-semibold mb-2">Saved Notes</h2>
